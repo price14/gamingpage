@@ -504,6 +504,42 @@ h1,h2,h3,h4,h5{
 	background: rgb(231, 190, 5);
 }
 
-
+@media screen and (max-width: 768px) {
+	.container-form {
+	  grid-template-columns: 1fr; 
+	  grid-gap: 30px;
+	}
+  
+	.container-form form textarea {
+	  min-width: 100%;
+	  max-width: 100%;
+	}
+  }
+  
+  @media screen and (max-width: 480px) {
+	.container-form h2 {
+	  font-size: 30px; 
+	}
+  
+	.container-form p {
+	  font-size: 15px; 
+	  margin-bottom: 20px;
+	}
+  
+	.container-form a {
+	  font-size: 15px; 
+	}
+  
+	.container-form form .campo,
+	.container-form form textarea {
+	  padding: 12px 8px; 
+	  font-size: 14px; 
+	}
+  
+	.container-form .btn-enviar {
+	  padding: 12px;
+	  font-size: 15px; 
+	}
+  }
 
 
